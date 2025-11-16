@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: asvasudev/k8-backend:latest  # <-- change this
+          image: asvasudev/k10-backend:latest  # <-- change this
           ports:
             - containerPort: 2000
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: asvasudev/k8-frontend:latest  # <-- change this
+          image: asvasudev/k10-frontend:latest  # <-- change this
           ports:
             - containerPort: 80
 ---
